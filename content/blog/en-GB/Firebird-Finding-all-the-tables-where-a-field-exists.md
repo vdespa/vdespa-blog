@@ -1,4 +1,4 @@
-# Firebird – Finding all the tables where a field exists #
+# Firebird - Finding all the tables where a field exists #
 
 So you have in front of you a huge database with thousands of tables and you want to find all the tables that have a certain field.
 
