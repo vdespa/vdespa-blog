@@ -2,6 +2,9 @@
 
 You can find yourself often in the situation when you have to change the `php.ini` configuration on a server where you don't have full control (like no root, ssh) and you only can upload files to that server. Getting access to the server configuration may be difficult in this situation. Sending an email to the customer, explaining what is needed, of course he has no idea what you are talking about, trying to get in touch with the support from different hosting companies and so on - what a waste of time.
 
+<!--BREAK-->
+
+
 ## Servers supported ##
 
 I've tested this method on Apache and on Zend Server. For Apache the [AllowOverride Directive](http://httpd.apache.org/docs/2.2/mod/core.html#allowoverride) must be properly configured.

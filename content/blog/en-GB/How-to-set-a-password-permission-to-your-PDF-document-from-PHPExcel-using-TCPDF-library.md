@@ -2,6 +2,8 @@
 
 If you are using PHPExcel to generate PDF documents, you should know what you are actually using the TCPDF library which comes bundled in PHPExcel.
 
+<!--BREAK-->
+
 Although not very nice because it involves a bit of hacking the base code of PHPExcel but here is how you can do it:
 
 For version PHPExcel v 1.7.6 the place to start hacking would be in this file:
