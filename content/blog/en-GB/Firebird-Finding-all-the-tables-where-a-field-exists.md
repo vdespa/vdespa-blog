@@ -2,7 +2,8 @@
 
 So you have in front of you a huge database with thousands of tables and you want to find all the tables that have a certain field.
 
-<hr id="system-readmore" />
+<!--BREAK-->
+
 
     SELECT *
     FROM RDB$RELATION_FIELDS
