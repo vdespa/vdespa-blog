@@ -4,6 +4,7 @@ You can find yourself often in the situation when you have to change the `php.in
 
 <!--BREAK-->
 
+![](How-to-Change-php.ini-Values-Using-htaccess-01.png)
 
 ## Servers supported ##
 
