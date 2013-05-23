@@ -7,10 +7,10 @@ This article will try to resolve two problems. Viewing a BLOB inside a database 
 You have a column which stores information as BLOB, but the information itself is text. With the following query you can display the contents of this field:
 
     SELECT      t1.*, 
-  			CAST(SUBSTRING(blob1 FROM 1 FOR 32000) AS VARCHAR(32000)) AS myblobfield 
+  		CAST(SUBSTRING(blob1 FROM 1 FOR 32000) AS VARCHAR(32000)) AS myblobfield 
     FROM        t1
 
-Please note that maximum length for VARCHAR is 32767 bytes and if the data gets truncated, the query may fail.
+Please note that maximum length for VARCHAR is 32767 bytes and if the data gets truncated, the query may fail. Also if the BLOG is a multiline text, only the first line will be displayed.
 
 Now I am not saying that this is the best method or something, it is just a solution that worked for me. If you know another one, a better, simpler way to do it, drop a message in the comment section below.
 
