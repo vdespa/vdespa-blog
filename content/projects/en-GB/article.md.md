@@ -1,8 +1,11 @@
 # article.md #
 
+*article.md* brings to Joomla! the power of Github & co. combined with a lightweight markup language, Markdown. Basically you can store and edit your content as Markdown documents and store them on github (storing them locally on your server is also possible).
+
 ## Short introduction ##
 
-*article.md* brings to Joomla! the power of Github & co. combined with a lightweight markup language, Markdown. Basically you can store and edit your content as Markdown documents and store them on github (storing them locally on your server is also possible).
+-- soon --
+
 
 <!--BREAK-->
 
