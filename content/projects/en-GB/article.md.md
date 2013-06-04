@@ -2,12 +2,14 @@
 
 *article.md* brings to Joomla! the power of Github & co. combined with a lightweight markup language, Markdown. Basically you can store and edit your content as Markdown documents and store them on github (storing them locally on your server is also possible).
 
+<!--BREAK-->
+
 ## Short introduction ##
 
 -- soon --
 
 
-<!--BREAK-->
+
 
 > Please note that this extension is in a very early development stage. I would not recommend it for inexperienced users or for large websites.
 
