@@ -2,6 +2,8 @@
 
 This article will try to resolve two problems. Viewing a BLOB inside a database administration tool like FlameRobin and / or using it inside a server side script, like PHP.
 
+<!--BREAK-->
+
 ## Viewing a BLOB inside a database administration tool ##
 
 You have a column which stores information as BLOB, but the information itself is text. With the following query you can display the contents of this field:
