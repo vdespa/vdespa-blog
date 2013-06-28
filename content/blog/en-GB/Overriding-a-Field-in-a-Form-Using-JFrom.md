@@ -10,19 +10,19 @@ Inside `root/administrator/components/com_banners/models/forms` you will find `b
 
 Now we are going to override the field `state`, so the xml will look like:
 
-  <?xml version="1.0" encoding="utf-8"?>
-  <form>
-    <fieldset name="details"
-  		addfieldpath="/administrator/components/com_banners/models/fields"
-  	>
-  		<field name="state" type="list"
-  			label="JSTATUS" description="COM_BANNERS_FIELD_STATE_DESC"
-  			class="inputbox span12 small" size="1" default="1" >
-  			<option value="1">JPUBLISHED</option>
-  			<option value="0">JUNPUBLISHED</option>
-  		</field>
-  	</fieldset>
-  </form>
+    <?xml version="1.0" encoding="utf-8"?>
+    <form>
+      <fieldset name="details"
+    		addfieldpath="/administrator/components/com_banners/models/fields"
+    	>
+    		<field name="state" type="list"
+    			label="JSTATUS" description="COM_BANNERS_FIELD_STATE_DESC"
+    			class="inputbox span12 small" size="1" default="1" >
+    			<option value="1">JPUBLISHED</option>
+    			<option value="0">JUNPUBLISHED</option>
+    		</field>
+    	</fieldset>
+    </form>
   
 with the difference that it contains fewer options. Of course, changing other options are possible as well.
 
