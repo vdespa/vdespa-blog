@@ -2,6 +2,8 @@
 
 Technically what I am trying to do it to **build an "Extension Module"** as per vTiger [definition](https://wiki.vtiger.com/index.php/DevelopingModule#Extension_Module), that can be installed via the Module Manager in the GUI.
 
+<!--BREAK-->
+
 I must say from the start that I am not an expert in vTiger custom development. The reason for writing this is that I had lots of errors like:
 
 > dUnzip2: File 'manifest.xml' is not compressed in the zip
@@ -24,7 +26,7 @@ NO, this works just under Vtiger 6.
 
 ## Step 0 - Make sure this is for you ##
 
-"Heads up!" First [download](#) and test if this code works for you. Stop now if this is not working for you.
+"Heads up!" First [download](https://github.com/vdespa/vtiger-simple-extension-module/archive/vtiger-6.0.zip) and test if this code works for you. Stop now if this is not working for you.
 
 If the module installed fine, than you are ready to go. I will try to give some basic steps on how to build this. Follow the steps but also the code showed on github.
 
