@@ -26,7 +26,7 @@ NO, this works just under Vtiger 6.
 
 ## Step 0 - Make sure this is for you ##
 
-"Heads up!" First [download](https://github.com/vdespa/vtiger-simple-extension-module/archive/vtiger-6.0.zip) and test if this code works for you. Stop now if this is not working for you.
+"Heads up!" First [download the install kit (v.1.1)](https://github.com/vdespa/vtiger-simple-extension-module/blob/extra-module-code/install-kits/simple-extension.1.1.zip) and test if this code works for you. Stop now if this is not working for you.
 
 If the module installed fine, than you are ready to go. I will try to give some basic steps on how to build this. Follow the steps but also the code showed on github.
 
