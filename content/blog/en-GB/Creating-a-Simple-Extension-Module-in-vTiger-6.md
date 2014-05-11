@@ -14,6 +14,8 @@ While I won't try to explain the cause of the errors above, I will try to explai
 
 I've tested the code below in vTiger 6.0.0 beta. All the code is freely available on [github](https://github.com/vdespa/vtiger-simple-extension-module/tree/vtiger-6.0). Fell free to fork it and to send a PR is something is broken.
 
+<div align="center"><!-- Blog Image Ads --> <ins class="adsbygoogle" style="display: inline-block; width: 728px; height: 90px;" data-ad-client="ca-pub-4303200597734966" data-ad-slot="2401911150"></ins></div>
+
 ## What will this module do? ##
 
 This plugin will install, register an event handler and later when an Account item is saved, it will catch the data that was saved. If you don't need this functionality, just remove the relevant code from the `SimpleExtension.php` and `SimpleExtensionHandler.php`.
