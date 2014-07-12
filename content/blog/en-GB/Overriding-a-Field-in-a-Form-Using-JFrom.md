@@ -2,6 +2,8 @@
 
 So if you are generating you forms from XML files using JForm, you may want a point to reuse a form. Perfectly possible. But what if you need a small change, let's say, making a field mandatory? Or reducing some options in a list?
 
+<!--BREAK-->
+
 JForm provides a nice way to do that. You just need to load create a new XML form that matches the field you want to override.
 
 I am going to illustrate this trick directly on a Joomla! core component, just for the sake of example. 
