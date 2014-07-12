@@ -2,6 +2,8 @@
 
 In case you are interacting with Vtiger 6 via it's web services interface, you might have noticed that the entity `Products` not not expose it's VAT, service or sales tax (which are referenced from another table).
 
+<!--BREAK-->
+
 Tax information is stored in the table `vtiger_producttaxrel` and there is also a new entity exposed via web services called `ProductTaxes` and also `Taxes`. Unfortunately, because this table is relational, web services cannot work with this table in a proper way. At least from the research I did, if you need to import / export this information via web services, there is no way to do this at this point, because existing classes cannot directly work with this table. Any efforts to retrieve or insert information will fail (largely because this table does not implement an `id` field as primary key as other entities do).
 
 ## Working solution for importing / exporting / insert / update / delete Product Tax via Web Services ##
