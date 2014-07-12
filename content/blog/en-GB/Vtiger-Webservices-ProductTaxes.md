@@ -94,7 +94,7 @@ While normally this should be done via invoking delete, to implement / get it to
 
 ## How to Install the Solution ##
 
-1. Download file `VtigerProductTaxesOperation.php` from github. 
+1. Download file `VtigerProductTaxesOperation.php` from [github](https://github.com/vdespa/Vtiger-Web-Services-ProductTaxes). 
 2. Copy file `VtigerProductTaxesOperation.php` to `VTIGER_ROOT/include/Webservices/Custom/VtigerProductTaxesOperation.php`.
 3. Execute following MySQL query to replace the handler path for the `ProductTaxes` entity (assumption is made that the entry `ProductTaxes` already exists in the table).
 `UPDATE vtiger_ws_entity SET handler_path = 'include/Webservices/Custom/VtigerProductTaxesOperation.php' WHERE vtiger_ws_entity.name = "ProductTaxes";`
