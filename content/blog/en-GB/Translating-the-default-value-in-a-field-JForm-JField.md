@@ -2,6 +2,8 @@
 
 When creating forms with JForm, you already know that attributes such as `label` or `description` get automatically a translation from Joomla.
 
+<!--BREAK-->
+
 But if you set for your form also the `default` value and it's nothing numerical and which is a language string, guess what will happen ... Yes, it will not be translated automatically. 
 
 The trick is adding another property to your field, called `translate_default` and setting it's value to `1` or `true`. 
