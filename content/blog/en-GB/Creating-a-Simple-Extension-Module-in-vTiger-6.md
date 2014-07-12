@@ -14,6 +14,7 @@ While I won't try to explain the cause of the errors above, I will try to explai
 
 I've tested the code below in vTiger 6.0.0 beta. All the code is freely available on [github](https://github.com/vdespa/vtiger-simple-extension-module/tree/vtiger-6.0). Fell free to fork it and to send a PR is something is broken.
 
+
 ## What will this module do? ##
 
 This plugin will install, register an event handler and later when an Account item is saved, it will catch the data that was saved. If you don't need this functionality, just remove the relevant code from the `SimpleExtension.php` and `SimpleExtensionHandler.php`.
@@ -26,7 +27,7 @@ NO, this works just under Vtiger 6.
 
 ## Step 0 - Make sure this is for you ##
 
-"Heads up!" First [download](https://github.com/vdespa/vtiger-simple-extension-module/archive/vtiger-6.0.zip) and test if this code works for you. Stop now if this is not working for you.
+"Heads up!" First [download the install kit (v.1.1)](https://github.com/vdespa/vtiger-simple-extension-module/raw/extra-module-code/install-kits/simple-extension.1.1.zip) and test if this code works for you. Stop now if this is not working for you.
 
 If the module installed fine, than you are ready to go. I will try to give some basic steps on how to build this. Follow the steps but also the code showed on github.
 
