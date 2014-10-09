@@ -1,4 +1,4 @@
-# Creating a Simple Extension Module in Vtiger
+# Creating a Simple Extension Module in Vtiger #
 
 Technically what I am trying to do it to **build an "Extension Module"** as per vTiger [definition](https://wiki.vtiger.com/index.php/DevelopingModule#Extension_Module), that can be installed via the Module Manager in the GUI.
 
